@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EggLoadingView_Example' do
+  pod 'EggLoadingView', :path => '../'
+
+  target 'EggLoadingView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
