@@ -19,7 +19,7 @@ pod 'EggLoadingView'
 
 ## Author
 
-Thanavat Chaopaknam, thanavat.cha@ascendcorp.com
+Thanavat Chaopaknam, thanavat.chao@gmail.com
 
 ## License
 
