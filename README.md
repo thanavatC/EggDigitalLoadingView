@@ -1,6 +1,7 @@
 # EggLoadingView
 [![Version](https://img.shields.io/cocoapods/v/EggLoadingView.svg?style=flat)](https://cocoapods.org/pods/EggLoadingView)
 [![Platform](https://img.shields.io/cocoapods/p/EggLoadingView.svg?style=flat)](https://cocoapods.org/pods/EggLoadingView)
+[![Swift Version](https://img.shields.io/badge/Swift-5.0-green.svg?style=flat)](https://cocoapods.org/pods/EggLoadingView)
 
 ## Example
 
