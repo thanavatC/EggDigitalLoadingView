@@ -1,9 +1,7 @@
 # EggLoadingView
-
-[![CI Status](https://img.shields.io/travis/Thanavat Chaopaknam/EggLoadingView.svg?style=flat)](https://travis-ci.org/Thanavat Chaopaknam/EggLoadingView)
 [![Version](https://img.shields.io/cocoapods/v/EggLoadingView.svg?style=flat)](https://cocoapods.org/pods/EggLoadingView)
-[![License](https://img.shields.io/cocoapods/l/EggLoadingView.svg?style=flat)](https://cocoapods.org/pods/EggLoadingView)
 [![Platform](https://img.shields.io/cocoapods/p/EggLoadingView.svg?style=flat)](https://cocoapods.org/pods/EggLoadingView)
+[![Swift Version](https://img.shields.io/badge/Swift-5.0-green.svg?style=flat)](https://cocoapods.org/pods/EggLoadingView)
 
 ## Example
 
@@ -22,7 +20,7 @@ pod 'EggLoadingView'
 
 ## Author
 
-Thanavat Chaopaknam, thanavat.cha@ascendcorp.com
+Thanavat Chaopaknam, thanavat.chao@gmail.com
 
 ## License
 
