@@ -1,0 +1,6 @@
+framework module EggLoadingView {
+  umbrella header "EggLoadingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

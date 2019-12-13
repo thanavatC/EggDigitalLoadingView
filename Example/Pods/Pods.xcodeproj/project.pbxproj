@@ -1,0 +1,1190 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0188494CA7C4B3BEB02A2FB2C9E70FA8 /* EggLoadingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE588E64DEECA09691376304818C34D /* EggLoadingView-dummy.m */; };
+		021C5F426A8C600A86CE9EC0124BBDD9 /* Pods-EggLoadingView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9221C4B93031E4EA794FFA03C31C89 /* Pods-EggLoadingView_Tests-dummy.m */; };
+		04C3339EB9C87982993C4300E542765E /* SwiftyGif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CECF7992771610E736C304A9517F3 /* SwiftyGif-dummy.m */; };
+		1E1CADAA708614A1E9DFFF591F937E57 /* SwiftyGif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFEC0385C5B7484A4BF74370A682640 /* SwiftyGif-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23E90FBC8F4615B55C77205B94A94380 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32AFA8223C3B79F2F5EB4EE749B5EBF /* UIImageView+SwiftyGif.swift */; };
+		2BFD17B4E5FC10E7E56849E86658A06A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EB36820F0A0835C8F222134E989D7B /* Foundation.framework */; };
+		39B9E4E59E448611E7D0DF8D81D62FA4 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8787E23D45170BE293B3D26C33DE76 /* UIImage+SwiftyGif.swift */; };
+		3CC97C55573BBB9215A70DC8EA8B8C8E /* EggDeviceExt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE97C43D9F39478D4FD099C3A951C59 /* EggDeviceExt-dummy.m */; };
+		3E05B565232437AEC0B492CE779005DB /* SwiftyGif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67ED1959F54333F0ABD1359064AACC2 /* SwiftyGif.framework */; };
+		49FF9929EB54EB0798C3C686637A73DD /* EggLoadingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 962E55648679A0B16F8707EB7566E8FA /* EggLoadingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E650D04BA08EEE3D78FBF72B6AD9B18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EB36820F0A0835C8F222134E989D7B /* Foundation.framework */; };
+		87370D45B84BEE8C6100DED270049C18 /* Pods-EggLoadingView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76147745AF34B1A0E963345AA286D361 /* Pods-EggLoadingView_Example-dummy.m */; };
+		907F9DD9EB5A032AF52B5D2CEAE21997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EB36820F0A0835C8F222134E989D7B /* Foundation.framework */; };
+		96D81C50269815EA1D1FB9F1FFC24B60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EB36820F0A0835C8F222134E989D7B /* Foundation.framework */; };
+		A42CEB8B46D607F1EA260C2B55697028 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D19DBD02ADD57736006638B2901A1 /* LoadingView.swift */; };
+		BBD81C9B7BDF3F85A3A3CC91CE20177D /* UIDeviceExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254826F34013DD66D6FAE823EE524520 /* UIDeviceExt.swift */; };
+		BDA6F95D54730282BFB49134497A1D25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EB36820F0A0835C8F222134E989D7B /* Foundation.framework */; };
+		C81D134283D23FE3D561AE537D23EA69 /* EggDeviceExt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F65909BE354D0B61352D4AFF192D9C /* EggDeviceExt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D157A6555AF308144B2910C3B47EBAAD /* Pods-EggLoadingView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DEFC87BCFB087F6923534FEC6BC05B /* Pods-EggLoadingView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9EE0E28D61AAB1976C5FF7D45D80AF1 /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = AC11724882C5436A2F0207EC3A4534C6 /* SwiftyGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0610034C9F1A230861C08D000C1084E /* EggDeviceExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDB3B2B479718389BFE9A50B5C30B55 /* EggDeviceExt.framework */; };
+		FD7BE84ED5BB5B26DCEC6DB919B9A3F3 /* Pods-EggLoadingView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70BDC753D9FD828F06A9412BD3AEF9C9 /* Pods-EggLoadingView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE4AB6074912A8294C60D2652BB036D7 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC75E78F353BF8C6ADFD8F4CA77A37B /* SwiftyGifManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BF9016BE9358CD11A50A1440AD13124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
+		};
+		5EE3D9B512DD348C49DDB025196BCAD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE3EE38041AC135CC803510C4AA9DC5;
+			remoteInfo = EggDeviceExt;
+		};
+		815FEBB0D3E10BBC0133224C50C64C1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DEDD48272494DFAEABE55ECA897763;
+			remoteInfo = "Pods-EggLoadingView_Example";
+		};
+		AE147DB334C0D825939FF3141E301159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
+		};
+		BEA9D6DD2C2FEA36E00C24F812CE09FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3AF2E37F34A4B0137AFB0819B8C4B2C;
+			remoteInfo = EggLoadingView;
+		};
+		FF645642119C1DADDC120F8E83395564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE3EE38041AC135CC803510C4AA9DC5;
+			remoteInfo = EggDeviceExt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002260F3EF21D78BB22182777C3F4F30 /* SwiftyGif.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyGif.modulemap; sourceTree = "<group>"; };
+		00F65909BE354D0B61352D4AFF192D9C /* EggDeviceExt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggDeviceExt-umbrella.h"; sourceTree = "<group>"; };
+		0F8787E23D45170BE293B3D26C33DE76 /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+SwiftyGif.swift"; path = "SwiftyGif/UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		1CE97C43D9F39478D4FD099C3A951C59 /* EggDeviceExt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EggDeviceExt-dummy.m"; sourceTree = "<group>"; };
+		1DECB4F4B4744106776DB0246D9B04BA /* EggLoadingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EggLoadingView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		254826F34013DD66D6FAE823EE524520 /* UIDeviceExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDeviceExt.swift; path = EggDeviceExt/Classes/UIDeviceExt.swift; sourceTree = "<group>"; };
+		2FFEC0385C5B7484A4BF74370A682640 /* SwiftyGif-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-umbrella.h"; sourceTree = "<group>"; };
+		36ED8F699B45DF97B5BFC1805F725404 /* Pods-EggLoadingView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EggLoadingView_Tests.modulemap"; sourceTree = "<group>"; };
+		393DE801AA281E92C9C0F50EFBDF2CDF /* EggLoadingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggLoadingView-prefix.pch"; sourceTree = "<group>"; };
+		3FAF116EAEC952EEF1BF7EBCF5A716DC /* Pods_EggLoadingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggLoadingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF84F6510D6FBCA5228C1D1A9DE598D /* Pods-EggLoadingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EggLoadingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		41EB36820F0A0835C8F222134E989D7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4A38B351526FC5A8938964EF5358CDEB /* SwiftyGif-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-prefix.pch"; sourceTree = "<group>"; };
+		586D44BA4E3B5FEDFFDECE2A0FC39611 /* Pods-EggLoadingView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EggLoadingView_Tests-Info.plist"; sourceTree = "<group>"; };
+		5D8CECF7992771610E736C304A9517F3 /* SwiftyGif-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyGif-dummy.m"; sourceTree = "<group>"; };
+		709E8CADB2642751BA7C364675C2C74B /* EggDeviceExt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EggDeviceExt.xcconfig; sourceTree = "<group>"; };
+		70BDC753D9FD828F06A9412BD3AEF9C9 /* Pods-EggLoadingView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EggLoadingView_Example-umbrella.h"; sourceTree = "<group>"; };
+		72055FE8CEA841DBC8B88113464BDA08 /* Pods-EggLoadingView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EggLoadingView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72CD33967702AB1092B8FFB5001DA4FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		73063920E57C8AE7BBA59DE3CEDF8B7F /* EggLoadingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EggLoadingView.xcconfig; sourceTree = "<group>"; };
+		76147745AF34B1A0E963345AA286D361 /* Pods-EggLoadingView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EggLoadingView_Example-dummy.m"; sourceTree = "<group>"; };
+		7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE210BC60219B0BFAC2B0BEE88C9C24 /* EggLoadingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EggLoadingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3C0B102E06B1A9E5210ED51581E133 /* EggDeviceExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EggDeviceExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC80BDF6A2673D91150BD6B878960FC /* SwiftyGif-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyGif-Info.plist"; sourceTree = "<group>"; };
+		9006849A331E8E7FAF03F6386D90FA77 /* Pods-EggLoadingView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EggLoadingView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		950066EADA1F7765A557387973E2FD45 /* EggDeviceExt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggDeviceExt-prefix.pch"; sourceTree = "<group>"; };
+		95CEE3F21BF6080AD91F7BD4189D7556 /* Pods-EggLoadingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EggLoadingView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		962E55648679A0B16F8707EB7566E8FA /* EggLoadingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggLoadingView-umbrella.h"; sourceTree = "<group>"; };
+		977C2B7135B5355EC991426659D85A82 /* Pods-EggLoadingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EggLoadingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F7C25A505EDE49866B776ED455EC290 /* Pods-EggLoadingView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EggLoadingView_Example-Info.plist"; sourceTree = "<group>"; };
+		A0524FA5CC90AF619E029702EF2DDDD1 /* Pods-EggLoadingView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EggLoadingView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A93F269DC0BC7DEF67D0D23D473E261A /* SwiftyGif.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.xcconfig; sourceTree = "<group>"; };
+		AACB1789FDD4C35C42943805E7A22BE6 /* EggDeviceExt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EggDeviceExt-Info.plist"; sourceTree = "<group>"; };
+		AC11724882C5436A2F0207EC3A4534C6 /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
+		AF8BBE9EDD7EDDD496B7008F8ADF19DA /* EggLoadingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EggLoadingView.modulemap; sourceTree = "<group>"; };
+		B33AAB91A7A0E3EA45E542281BF75DF8 /* EggLoadingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EggLoadingView-Info.plist"; sourceTree = "<group>"; };
+		B67ED1959F54333F0ABD1359064AACC2 /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D47F61123B370273B7978AF02A81A7 /* Pods_EggLoadingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggLoadingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DEFC87BCFB087F6923534FEC6BC05B /* Pods-EggLoadingView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EggLoadingView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BA9221C4B93031E4EA794FFA03C31C89 /* Pods-EggLoadingView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EggLoadingView_Tests-dummy.m"; sourceTree = "<group>"; };
+		BAC75E78F353BF8C6ADFD8F4CA77A37B /* SwiftyGifManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
+		BEDB3B2B479718389BFE9A50B5C30B55 /* EggDeviceExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EggDeviceExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D95791367A2FC5BA5EB8834E768954 /* EggDeviceExt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EggDeviceExt.modulemap; sourceTree = "<group>"; };
+		D90C9ABEFBC6E147006E390A4F4A6A0A /* Pods-EggLoadingView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EggLoadingView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D964546C188A74B5A4F3FA40F8B9E501 /* Pods-EggLoadingView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EggLoadingView_Example.modulemap"; sourceTree = "<group>"; };
+		DBE588E64DEECA09691376304818C34D /* EggLoadingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EggLoadingView-dummy.m"; sourceTree = "<group>"; };
+		E32AFA8223C3B79F2F5EB4EE749B5EBF /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+SwiftyGif.swift"; path = "SwiftyGif/UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		E5FAA01CC662D27DB632B108CC651AD5 /* Pods-EggLoadingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EggLoadingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E97D19DBD02ADD57736006638B2901A1 /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = EggLoadingView/Classes/LoadingView.swift; sourceTree = "<group>"; };
+		F37DFC38B19995E1543A1CCAFA51EB61 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F6E74DF3AB9BA837C5B4F206438946EC /* Pods-EggLoadingView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EggLoadingView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15EC25C3F3A96996857B1B2FC253E9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907F9DD9EB5A032AF52B5D2CEAE21997 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2D0780898689CE938F90A5862B8BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D81C50269815EA1D1FB9F1FFC24B60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C7CA121F1D48787053CEDF8C1DF994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA6F95D54730282BFB49134497A1D25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BAE70D3B8FE48D6B4A93ED4B123737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E650D04BA08EEE3D78FBF72B6AD9B18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6EB908EF884271113D0F0977CF140F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0610034C9F1A230861C08D000C1084E /* EggDeviceExt.framework in Frameworks */,
+				2BFD17B4E5FC10E7E56849E86658A06A /* Foundation.framework in Frameworks */,
+				3E05B565232437AEC0B492CE779005DB /* SwiftyGif.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C503EF2C3C025632E7B73FBD2CF92F /* EggLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				E97D19DBD02ADD57736006638B2901A1 /* LoadingView.swift */,
+				3F70E01E54E06D5D2A8A6D58AF8097A7 /* Pod */,
+				81C2B3A19AAAE295C097F6287AD4CF63 /* Support Files */,
+			);
+			name = EggLoadingView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		25BDC5B915B05E0C9FEB69C415283760 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24C503EF2C3C025632E7B73FBD2CF92F /* EggLoadingView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2E4FF32D7B6304AFA5AB13FEF65B98BF /* EggDeviceExt */ = {
+			isa = PBXGroup;
+			children = (
+				254826F34013DD66D6FAE823EE524520 /* UIDeviceExt.swift */,
+				88A542316D6BCC97F7041C88DE4FD437 /* Support Files */,
+			);
+			path = EggDeviceExt;
+			sourceTree = "<group>";
+		};
+		34F1D1476CAD3DD584AE4FD307833E0D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EAAF8932039F7805C824B0E39AA2B01 /* Pods-EggLoadingView_Example */,
+				5CAD6B88A677B7DB0D75DBDEF06FD02F /* Pods-EggLoadingView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3F70E01E54E06D5D2A8A6D58AF8097A7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1DECB4F4B4744106776DB0246D9B04BA /* EggLoadingView.podspec */,
+				72CD33967702AB1092B8FFB5001DA4FC /* LICENSE */,
+				F37DFC38B19995E1543A1CCAFA51EB61 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5CAD6B88A677B7DB0D75DBDEF06FD02F /* Pods-EggLoadingView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				36ED8F699B45DF97B5BFC1805F725404 /* Pods-EggLoadingView_Tests.modulemap */,
+				72055FE8CEA841DBC8B88113464BDA08 /* Pods-EggLoadingView_Tests-acknowledgements.markdown */,
+				F6E74DF3AB9BA837C5B4F206438946EC /* Pods-EggLoadingView_Tests-acknowledgements.plist */,
+				BA9221C4B93031E4EA794FFA03C31C89 /* Pods-EggLoadingView_Tests-dummy.m */,
+				586D44BA4E3B5FEDFFDECE2A0FC39611 /* Pods-EggLoadingView_Tests-Info.plist */,
+				B9DEFC87BCFB087F6923534FEC6BC05B /* Pods-EggLoadingView_Tests-umbrella.h */,
+				3FF84F6510D6FBCA5228C1D1A9DE598D /* Pods-EggLoadingView_Tests.debug.xcconfig */,
+				E5FAA01CC662D27DB632B108CC651AD5 /* Pods-EggLoadingView_Tests.release.xcconfig */,
+			);
+			name = "Pods-EggLoadingView_Tests";
+			path = "Target Support Files/Pods-EggLoadingView_Tests";
+			sourceTree = "<group>";
+		};
+		81C2B3A19AAAE295C097F6287AD4CF63 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF8BBE9EDD7EDDD496B7008F8ADF19DA /* EggLoadingView.modulemap */,
+				73063920E57C8AE7BBA59DE3CEDF8B7F /* EggLoadingView.xcconfig */,
+				DBE588E64DEECA09691376304818C34D /* EggLoadingView-dummy.m */,
+				B33AAB91A7A0E3EA45E542281BF75DF8 /* EggLoadingView-Info.plist */,
+				393DE801AA281E92C9C0F50EFBDF2CDF /* EggLoadingView-prefix.pch */,
+				962E55648679A0B16F8707EB7566E8FA /* EggLoadingView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EggLoadingView";
+			sourceTree = "<group>";
+		};
+		88A542316D6BCC97F7041C88DE4FD437 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2D95791367A2FC5BA5EB8834E768954 /* EggDeviceExt.modulemap */,
+				709E8CADB2642751BA7C364675C2C74B /* EggDeviceExt.xcconfig */,
+				1CE97C43D9F39478D4FD099C3A951C59 /* EggDeviceExt-dummy.m */,
+				AACB1789FDD4C35C42943805E7A22BE6 /* EggDeviceExt-Info.plist */,
+				950066EADA1F7765A557387973E2FD45 /* EggDeviceExt-prefix.pch */,
+				00F65909BE354D0B61352D4AFF192D9C /* EggDeviceExt-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EggDeviceExt";
+			sourceTree = "<group>";
+		};
+		8EAAF8932039F7805C824B0E39AA2B01 /* Pods-EggLoadingView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D964546C188A74B5A4F3FA40F8B9E501 /* Pods-EggLoadingView_Example.modulemap */,
+				9006849A331E8E7FAF03F6386D90FA77 /* Pods-EggLoadingView_Example-acknowledgements.markdown */,
+				A0524FA5CC90AF619E029702EF2DDDD1 /* Pods-EggLoadingView_Example-acknowledgements.plist */,
+				76147745AF34B1A0E963345AA286D361 /* Pods-EggLoadingView_Example-dummy.m */,
+				D90C9ABEFBC6E147006E390A4F4A6A0A /* Pods-EggLoadingView_Example-frameworks.sh */,
+				9F7C25A505EDE49866B776ED455EC290 /* Pods-EggLoadingView_Example-Info.plist */,
+				70BDC753D9FD828F06A9412BD3AEF9C9 /* Pods-EggLoadingView_Example-umbrella.h */,
+				977C2B7135B5355EC991426659D85A82 /* Pods-EggLoadingView_Example.debug.xcconfig */,
+				95CEE3F21BF6080AD91F7BD4189D7556 /* Pods-EggLoadingView_Example.release.xcconfig */,
+			);
+			name = "Pods-EggLoadingView_Example";
+			path = "Target Support Files/Pods-EggLoadingView_Example";
+			sourceTree = "<group>";
+		};
+		C2631194C06D0676D32E1033281EDF38 /* SwiftyGif */ = {
+			isa = PBXGroup;
+			children = (
+				AC11724882C5436A2F0207EC3A4534C6 /* SwiftyGif.h */,
+				BAC75E78F353BF8C6ADFD8F4CA77A37B /* SwiftyGifManager.swift */,
+				0F8787E23D45170BE293B3D26C33DE76 /* UIImage+SwiftyGif.swift */,
+				E32AFA8223C3B79F2F5EB4EE749B5EBF /* UIImageView+SwiftyGif.swift */,
+				D2AC01B1BBE031B3CF472FE108134FE9 /* Support Files */,
+			);
+			path = SwiftyGif;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				25BDC5B915B05E0C9FEB69C415283760 /* Development Pods */,
+				FCE4E078D6D1CE4AE820DC5D4BAD24B4 /* Frameworks */,
+				EA528B46281CB57A0DE2FAD249BC07A5 /* Pods */,
+				D409BBB62BA0AD1F8EAA387B53412856 /* Products */,
+				34F1D1476CAD3DD584AE4FD307833E0D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D2AC01B1BBE031B3CF472FE108134FE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				002260F3EF21D78BB22182777C3F4F30 /* SwiftyGif.modulemap */,
+				A93F269DC0BC7DEF67D0D23D473E261A /* SwiftyGif.xcconfig */,
+				5D8CECF7992771610E736C304A9517F3 /* SwiftyGif-dummy.m */,
+				8FC80BDF6A2673D91150BD6B878960FC /* SwiftyGif-Info.plist */,
+				4A38B351526FC5A8938964EF5358CDEB /* SwiftyGif-prefix.pch */,
+				2FFEC0385C5B7484A4BF74370A682640 /* SwiftyGif-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyGif";
+			sourceTree = "<group>";
+		};
+		D409BBB62BA0AD1F8EAA387B53412856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B3C0B102E06B1A9E5210ED51581E133 /* EggDeviceExt.framework */,
+				8AE210BC60219B0BFAC2B0BEE88C9C24 /* EggLoadingView.framework */,
+				B8D47F61123B370273B7978AF02A81A7 /* Pods_EggLoadingView_Example.framework */,
+				3FAF116EAEC952EEF1BF7EBCF5A716DC /* Pods_EggLoadingView_Tests.framework */,
+				7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA528B46281CB57A0DE2FAD249BC07A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E4FF32D7B6304AFA5AB13FEF65B98BF /* EggDeviceExt */,
+				C2631194C06D0676D32E1033281EDF38 /* SwiftyGif */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9C9B457279EF3AF67F3C3D340209CEF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				41EB36820F0A0835C8F222134E989D7B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FCE4E078D6D1CE4AE820DC5D4BAD24B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEDB3B2B479718389BFE9A50B5C30B55 /* EggDeviceExt.framework */,
+				B67ED1959F54333F0ABD1359064AACC2 /* SwiftyGif.framework */,
+				F9C9B457279EF3AF67F3C3D340209CEF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08DDF71D9941ABBC7B6F1DB346D1693E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FF9929EB54EB0798C3C686637A73DD /* EggLoadingView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5905BBCBEA48F0D6B9619B405202CC1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1CADAA708614A1E9DFFF591F937E57 /* SwiftyGif-umbrella.h in Headers */,
+				D9EE0E28D61AAB1976C5FF7D45D80AF1 /* SwiftyGif.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C26CFF1BBCB36EB8028685C7FB09294 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7BE84ED5BB5B26DCEC6DB919B9A3F3 /* Pods-EggLoadingView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E127FDA2642693CC7770E158115BAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D157A6555AF308144B2910C3B47EBAAD /* Pods-EggLoadingView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD11674777784F13AF641CBA316E7000 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81D134283D23FE3D561AE537D23EA69 /* EggDeviceExt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497F9CD720C20DC20A44EE51A99C0B72 /* Build configuration list for PBXNativeTarget "SwiftyGif" */;
+			buildPhases = (
+				5905BBCBEA48F0D6B9619B405202CC1D /* Headers */,
+				B9B22D6AA2304CF7E1445DFDC241EAC3 /* Sources */,
+				62C7CA121F1D48787053CEDF8C1DF994 /* Frameworks */,
+				DB02F17FBC3D681AF5F66072BD5189F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyGif;
+			productName = SwiftyGif;
+			productReference = 7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8FE3EE38041AC135CC803510C4AA9DC5 /* EggDeviceExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3578E10C0A2294E19BE79451925DC2D3 /* Build configuration list for PBXNativeTarget "EggDeviceExt" */;
+			buildPhases = (
+				BD11674777784F13AF641CBA316E7000 /* Headers */,
+				0F9762FB0962C658418FBEE422921E0C /* Sources */,
+				15EC25C3F3A96996857B1B2FC253E9E4 /* Frameworks */,
+				109F98CDC5A32682B3A18D38E3B8DD0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggDeviceExt;
+			productName = EggDeviceExt;
+			productReference = 8B3C0B102E06B1A9E5210ED51581E133 /* EggDeviceExt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90DBFA5A3E0BF6E358DA4C9709FF8B9F /* Pods-EggLoadingView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E0F9D4DE5310EDB0FDFC41B5D1F753 /* Build configuration list for PBXNativeTarget "Pods-EggLoadingView_Tests" */;
+			buildPhases = (
+				98E127FDA2642693CC7770E158115BAF /* Headers */,
+				9ECB1AF0D3FD1AE5D79BFAEAD9BB9234 /* Sources */,
+				5F2D0780898689CE938F90A5862B8BF3 /* Frameworks */,
+				BF5640CAF95A17BD62121BBF972966B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7393CD06FB480BC27E7F3B052E22117F /* PBXTargetDependency */,
+			);
+			name = "Pods-EggLoadingView_Tests";
+			productName = "Pods-EggLoadingView_Tests";
+			productReference = 3FAF116EAEC952EEF1BF7EBCF5A716DC /* Pods_EggLoadingView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3AF2E37F34A4B0137AFB0819B8C4B2C /* EggLoadingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8EBA3D06B100CA881C92F53CDAB7F0F /* Build configuration list for PBXNativeTarget "EggLoadingView" */;
+			buildPhases = (
+				08DDF71D9941ABBC7B6F1DB346D1693E /* Headers */,
+				CFA263AD3DE01A0836D76354D16A6D97 /* Sources */,
+				C6EB908EF884271113D0F0977CF140F6 /* Frameworks */,
+				D1747F2D14DEA9401F3713DB1B19996E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D27C508175AF9B630C2E1080E92B5D26 /* PBXTargetDependency */,
+				1C9E5E12F5C1A314ECEAE4452100D8E0 /* PBXTargetDependency */,
+			);
+			name = EggLoadingView;
+			productName = EggLoadingView;
+			productReference = 8AE210BC60219B0BFAC2B0BEE88C9C24 /* EggLoadingView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9DEDD48272494DFAEABE55ECA897763 /* Pods-EggLoadingView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CBD294D5C3862D4122D70020902BBD8 /* Build configuration list for PBXNativeTarget "Pods-EggLoadingView_Example" */;
+			buildPhases = (
+				7C26CFF1BBCB36EB8028685C7FB09294 /* Headers */,
+				578815D0C4104E5B98EF15E52F9BB0F7 /* Sources */,
+				73BAE70D3B8FE48D6B4A93ED4B123737 /* Frameworks */,
+				B56DB4EFB2D040FE38210FCD11097E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AC5FDF380AFB6955EB8A68A770B0F10 /* PBXTargetDependency */,
+				BD7A59F1BED5B27165E37265CBCFCABC /* PBXTargetDependency */,
+				8E74B20EB323987B5D9FECB851980485 /* PBXTargetDependency */,
+			);
+			name = "Pods-EggLoadingView_Example";
+			productName = "Pods-EggLoadingView_Example";
+			productReference = B8D47F61123B370273B7978AF02A81A7 /* Pods_EggLoadingView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D409BBB62BA0AD1F8EAA387B53412856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FE3EE38041AC135CC803510C4AA9DC5 /* EggDeviceExt */,
+				D3AF2E37F34A4B0137AFB0819B8C4B2C /* EggLoadingView */,
+				E9DEDD48272494DFAEABE55ECA897763 /* Pods-EggLoadingView_Example */,
+				90DBFA5A3E0BF6E358DA4C9709FF8B9F /* Pods-EggLoadingView_Tests */,
+				15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		109F98CDC5A32682B3A18D38E3B8DD0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56DB4EFB2D040FE38210FCD11097E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5640CAF95A17BD62121BBF972966B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1747F2D14DEA9401F3713DB1B19996E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB02F17FBC3D681AF5F66072BD5189F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F9762FB0962C658418FBEE422921E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC97C55573BBB9215A70DC8EA8B8C8E /* EggDeviceExt-dummy.m in Sources */,
+				BBD81C9B7BDF3F85A3A3CC91CE20177D /* UIDeviceExt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578815D0C4104E5B98EF15E52F9BB0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87370D45B84BEE8C6100DED270049C18 /* Pods-EggLoadingView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECB1AF0D3FD1AE5D79BFAEAD9BB9234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021C5F426A8C600A86CE9EC0124BBDD9 /* Pods-EggLoadingView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B22D6AA2304CF7E1445DFDC241EAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C3339EB9C87982993C4300E542765E /* SwiftyGif-dummy.m in Sources */,
+				FE4AB6074912A8294C60D2652BB036D7 /* SwiftyGifManager.swift in Sources */,
+				39B9E4E59E448611E7D0DF8D81D62FA4 /* UIImage+SwiftyGif.swift in Sources */,
+				23E90FBC8F4615B55C77205B94A94380 /* UIImageView+SwiftyGif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA263AD3DE01A0836D76354D16A6D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0188494CA7C4B3BEB02A2FB2C9E70FA8 /* EggLoadingView-dummy.m in Sources */,
+				A42CEB8B46D607F1EA260C2B55697028 /* LoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C9E5E12F5C1A314ECEAE4452100D8E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = 5BF9016BE9358CD11A50A1440AD13124 /* PBXContainerItemProxy */;
+		};
+		7393CD06FB480BC27E7F3B052E22117F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EggLoadingView_Example";
+			target = E9DEDD48272494DFAEABE55ECA897763 /* Pods-EggLoadingView_Example */;
+			targetProxy = 815FEBB0D3E10BBC0133224C50C64C1D /* PBXContainerItemProxy */;
+		};
+		7AC5FDF380AFB6955EB8A68A770B0F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EggDeviceExt;
+			target = 8FE3EE38041AC135CC803510C4AA9DC5 /* EggDeviceExt */;
+			targetProxy = 5EE3D9B512DD348C49DDB025196BCAD9 /* PBXContainerItemProxy */;
+		};
+		8E74B20EB323987B5D9FECB851980485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = AE147DB334C0D825939FF3141E301159 /* PBXContainerItemProxy */;
+		};
+		BD7A59F1BED5B27165E37265CBCFCABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EggLoadingView;
+			target = D3AF2E37F34A4B0137AFB0819B8C4B2C /* EggLoadingView */;
+			targetProxy = BEA9D6DD2C2FEA36E00C24F812CE09FD /* PBXContainerItemProxy */;
+		};
+		D27C508175AF9B630C2E1080E92B5D26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EggDeviceExt;
+			target = 8FE3EE38041AC135CC803510C4AA9DC5 /* EggDeviceExt */;
+			targetProxy = FF645642119C1DADDC120F8E83395564 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FDF41007B30B925B0FB3BC599F8ACF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977C2B7135B5355EC991426659D85A82 /* Pods-EggLoadingView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EggLoadingView_Example/Pods-EggLoadingView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EggLoadingView_Example/Pods-EggLoadingView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A55AC41462AC791165C50CDED715890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73063920E57C8AE7BBA59DE3CEDF8B7F /* EggLoadingView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EggLoadingView/EggLoadingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EggLoadingView/EggLoadingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EggLoadingView/EggLoadingView.modulemap";
+				PRODUCT_MODULE_NAME = EggLoadingView;
+				PRODUCT_NAME = EggLoadingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1AFAC0CA17AA4D3FB3F5E2842E8901EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93F269DC0BC7DEF67D0D23D473E261A /* SwiftyGif.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2535566C150CB866176A924DAF77365C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73063920E57C8AE7BBA59DE3CEDF8B7F /* EggLoadingView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EggLoadingView/EggLoadingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EggLoadingView/EggLoadingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EggLoadingView/EggLoadingView.modulemap";
+				PRODUCT_MODULE_NAME = EggLoadingView;
+				PRODUCT_NAME = EggLoadingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C73BDAC02BF6A4D61D6D97D384D8842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3E23DF2AB2F74D6969C9070E69E3A170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93F269DC0BC7DEF67D0D23D473E261A /* SwiftyGif.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D8BB9B822FE97431C7D18D42D8097FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF84F6510D6FBCA5228C1D1A9DE598D /* Pods-EggLoadingView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EggLoadingView_Tests/Pods-EggLoadingView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EggLoadingView_Tests/Pods-EggLoadingView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78080DBEA1043B4954F98A4E333A0E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709E8CADB2642751BA7C364675C2C74B /* EggDeviceExt.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EggDeviceExt/EggDeviceExt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EggDeviceExt/EggDeviceExt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EggDeviceExt/EggDeviceExt.modulemap";
+				PRODUCT_MODULE_NAME = EggDeviceExt;
+				PRODUCT_NAME = EggDeviceExt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB09B621ED251839D4FA17E44F361111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C003C8FE74245B52276E4CF5AD831269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95CEE3F21BF6080AD91F7BD4189D7556 /* Pods-EggLoadingView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EggLoadingView_Example/Pods-EggLoadingView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EggLoadingView_Example/Pods-EggLoadingView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBAD209AF2044E6F4EB1C27BF2EAE92B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709E8CADB2642751BA7C364675C2C74B /* EggDeviceExt.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EggDeviceExt/EggDeviceExt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EggDeviceExt/EggDeviceExt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EggDeviceExt/EggDeviceExt.modulemap";
+				PRODUCT_MODULE_NAME = EggDeviceExt;
+				PRODUCT_NAME = EggDeviceExt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CDEF6D991C2A091EE82DDFFF263E4712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5FAA01CC662D27DB632B108CC651AD5 /* Pods-EggLoadingView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EggLoadingView_Tests/Pods-EggLoadingView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EggLoadingView_Tests/Pods-EggLoadingView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3578E10C0A2294E19BE79451925DC2D3 /* Build configuration list for PBXNativeTarget "EggDeviceExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78080DBEA1043B4954F98A4E333A0E18 /* Debug */,
+				CBAD209AF2044E6F4EB1C27BF2EAE92B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB09B621ED251839D4FA17E44F361111 /* Debug */,
+				3C73BDAC02BF6A4D61D6D97D384D8842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497F9CD720C20DC20A44EE51A99C0B72 /* Build configuration list for PBXNativeTarget "SwiftyGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E23DF2AB2F74D6969C9070E69E3A170 /* Debug */,
+				1AFAC0CA17AA4D3FB3F5E2842E8901EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E0F9D4DE5310EDB0FDFC41B5D1F753 /* Build configuration list for PBXNativeTarget "Pods-EggLoadingView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8BB9B822FE97431C7D18D42D8097FA /* Debug */,
+				CDEF6D991C2A091EE82DDFFF263E4712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CBD294D5C3862D4122D70020902BBD8 /* Build configuration list for PBXNativeTarget "Pods-EggLoadingView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FDF41007B30B925B0FB3BC599F8ACF4 /* Debug */,
+				C003C8FE74245B52276E4CF5AD831269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8EBA3D06B100CA881C92F53CDAB7F0F /* Build configuration list for PBXNativeTarget "EggLoadingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2535566C150CB866176A924DAF77365C /* Debug */,
+				1A55AC41462AC791165C50CDED715890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
