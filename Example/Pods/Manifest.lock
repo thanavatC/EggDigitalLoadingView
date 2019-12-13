@@ -1,6 +1,6 @@
 PODS:
   - EggDeviceExt (0.1.5)
-  - EggLoadingView (0.1.4):
+  - EggLoadingView (0.1.5):
     - EggDeviceExt
     - SwiftyGif
   - SwiftyGif (5.2.0)
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   EggDeviceExt: 1053b39121d3de2d65f83b03ed72e009fb9e1ebe
-  EggLoadingView: d6d1d9ffbf5ded5a23214f416a95f65f78f952c8
+  EggLoadingView: 40e5aa65bb8315f02ff99fa81fdc493b0095dd72
   SwiftyGif: b85c6b33a9411859d9e1db998b6a8214aea942df
 
 PODFILE CHECKSUM: 513f198d74cddecd6ad054c974d3049ea7a13342
