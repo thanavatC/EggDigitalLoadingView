@@ -7,11 +7,17 @@
 //
 
 import UIKit
+import EggLoadingView
 
 class ViewController: UIViewController {
 
+    let loadingView = LoadingView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.loadingView.loadingImageName = "loading2.gif"
+        self.loadingView.delegate = self
+        self.loadingView.showLoadingView(true, hasCloseBtn: false)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -22,3 +28,9 @@ class ViewController: UIViewController {
 
 }
 
+// MARK: - LoadingViewDelegate
+extension ViewController: LoadingViewDelegate {
+    func pressCloseButton(_ button: UIButton) {
+        print("Close Button Click")
+    }
+}
