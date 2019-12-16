@@ -20,7 +20,7 @@
     "ios": "11.4"
   },
   "source_files": "EggLoadingView/Classes/**/*",
-  "resources": "EggLoadingView/Assets/**/*.{png,gif}",
+  "resources": "EggLoadingView/**/*.{png,gif}",
   "dependencies": {
     "EggDeviceExt": [
 

@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.loadingView.loadingImageName = "loading2.gif"
+//        self.loadingView.loadingImageName = "loading2.gif"
         self.loadingView.delegate = self
         self.loadingView.showLoadingView(true, hasCloseBtn: true)
         // Do any additional setup after loading the view, typically from a nib.
