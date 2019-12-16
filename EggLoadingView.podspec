@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EggLoadingView'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'Create Custom LoadingView.'
   s.swift_version    = '5.0'
   s.description      = <<-DESC
@@ -20,8 +20,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'Thanavat Chaopaknam' => 'thanavat.chao@gmail.com' }
   s.source           = { :git => 'https://github.com/thanavatC/EggLoadingView.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.4'
+  s.ios.deployment_target = '11.0'
   s.source_files = ['EggLoadingView/Classes/**/*', 'EggLoadingView/Assets/**/*']
   s.dependency 'EggDeviceExt'
-  s.dependency 'SwiftyGif'
 end

@@ -1,5 +1,5 @@
 //
-//  LoadingView.swift
+//  EggLoadingView.swift
 //  EggLoadingView
 //
 //  Created by Thanavat Chaopaknam on 13/12/2562 BE.
@@ -8,13 +8,15 @@
 import Foundation
 import UIKit
 import EggDeviceExt
-import SwiftyGif
 
-public protocol LoadingViewDelegate: class {
+public protocol EggLoadingViewDelegate: class {
     func pressCloseButton(_ button: UIButton)
 }
 
-public class LoadingView: UIView {
+public class EggLoadingView: UIView {
+    var isNewLoadingImage = false
+    var isNewClosedImage = false
+    
     var image: UIImageView = {
         let imgView = UIImageView()
         imgView.translatesAutoresizingMaskIntoConstraints = false
@@ -34,7 +36,7 @@ public class LoadingView: UIView {
     }()
     
     // MARK: - Properties
-    public weak var delegate: LoadingViewDelegate?
+    public weak var delegate: EggLoadingViewDelegate?
     
     // MARK: - Dynamic Properties
     private var _bgColor: UIColor = UIColor.black.withAlphaComponent(0.7)
@@ -87,12 +89,13 @@ public class LoadingView: UIView {
         }
     }
     
-    private var _loadingImageName: String = "loading.gif"
+    private var _loadingImageName: String = "loading"
     public var loadingImageName: String! {
         get {
             return self._loadingImageName
         }
         set {
+            self.isNewLoadingImage = true
             self._loadingImageName = newValue
         }
     }
@@ -103,6 +106,7 @@ public class LoadingView: UIView {
             return self._closeButtonImageName
         }
         set {
+            self.isNewClosedImage = true
             self._closeButtonImageName = newValue
         }
     }
@@ -124,17 +128,16 @@ public class LoadingView: UIView {
         self.closeBtn.heightAnchor.constraint(equalToConstant: UIDevice.iPad ? 40 : 20).isActive = true
         self.closeBtn.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16).isActive = true
         self.closeBtn.addTarget(self, action: #selector(hideView), for: .touchUpInside)
-        self.closeBtn.setBackgroundImage(UIImage(named: _closeButtonImageName, in: Bundle(for: type(of: self)), compatibleWith: nil), for: .normal)
+        self.closeBtn.setBackgroundImage(isNewClosedImage ? UIImage(named: _closeButtonImageName) : UIImage(named: _closeButtonImageName, in: Bundle(for: EggLoadingView.self), compatibleWith: nil), for: .normal)
         
         self.image.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
         self.image.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
         self.image.widthAnchor.constraint(equalToConstant: _imageWidth).isActive = true
         self.image.heightAnchor.constraint(equalToConstant: _imageHeight).isActive = true
-        do {
-            self.image.setGifImage(try UIImage(gifName: _loadingImageName))
-        } catch {
-            print(error)
-        }
+        
+        let imageData = try? Data(contentsOf: isNewLoadingImage ? Bundle.main.url(forResource: _loadingImageName, withExtension: "gif")! : Bundle(for: EggLoadingView.self).url(forResource: _loadingImageName, withExtension: "gif")!)
+        let advTimeGif = UIImage.gifImageWithData(imageData!)
+        self.image.image = advTimeGif
         
         self.title.topAnchor.constraint(equalTo: self.image.bottomAnchor, constant: 8).isActive = true
         self.title.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true

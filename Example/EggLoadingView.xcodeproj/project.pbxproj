@@ -13,7 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		84CF512623A39B4B00EE8D69 /* loading2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84CF512523A39B4A00EE8D69 /* loading2.gif */; };
+		84C1771223A7739B0015D13E /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84C1771123A7739B0015D13E /* loading.gif */; };
 		96597D4D94FF32E7D2321721 /* Pods_EggLoadingView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23F1ACC1AA6248CB4059447 /* Pods_EggLoadingView_Tests.framework */; };
 		F778640DFA6C02216D9D9606 /* Pods_EggLoadingView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FED37D8950C70029367CB9 /* Pods_EggLoadingView_Example.framework */; };
 /* End PBXBuildFile section */
@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* EggLoadingView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggLoadingView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		84CF512523A39B4A00EE8D69 /* loading2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading2.gif; sourceTree = "<group>"; };
+		84C1771123A7739B0015D13E /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
 		A23F1ACC1AA6248CB4059447 /* Pods_EggLoadingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggLoadingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56BA285FAD12426C753D509 /* Pods-EggLoadingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggLoadingView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EggLoadingView_Tests/Pods-EggLoadingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3B7DA0C26986FBD7374A10B /* Pods-EggLoadingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggLoadingView_Tests.release.xcconfig"; path = "Target Support Files/Pods-EggLoadingView_Tests/Pods-EggLoadingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				84CF512523A39B4A00EE8D69 /* loading2.gif */,
+				84C1771123A7739B0015D13E /* loading.gif */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -251,8 +251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84CF512623A39B4B00EE8D69 /* loading2.gif in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				84C1771223A7739B0015D13E /* loading.gif in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);

@@ -8,47 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		021C5F426A8C600A86CE9EC0124BBDD9 /* Pods-EggLoadingView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9221C4B93031E4EA794FFA03C31C89 /* Pods-EggLoadingView_Tests-dummy.m */; };
-		037AB62386CE80EA67E37FEF2F688F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EB36820F0A0835C8F222134E989D7B /* Foundation.framework */; };
-		2653AFFC8316B261B6DCF39FD465A4E6 /* EggLoadingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 504336D74C8F4293375A2DCC8B391F02 /* EggLoadingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2ABD2BB77BCA832C6A18232305C2E442 /* SwiftyGif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFEC0385C5B7484A4BF74370A682640 /* SwiftyGif-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05F9450C76B40372EDAF7C03F6019E2E /* SwiftyGif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFEC0385C5B7484A4BF74370A682640 /* SwiftyGif-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16390896429407649CB0910E55F8AF33 /* ic_close.png in Sources */ = {isa = PBXBuildFile; fileRef = D1BB2B82A464330E70B0C06C6CDDF5C8 /* ic_close.png */; };
+		2F195FFF76628133A740619C8CAE7992 /* EggLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978CFCFE73E99CEAD4185C14DD91F251 /* EggLoadingView.swift */; };
 		3CC97C55573BBB9215A70DC8EA8B8C8E /* EggDeviceExt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE97C43D9F39478D4FD099C3A951C59 /* EggDeviceExt-dummy.m */; };
+		3ECDD9940FC991132E6B03F56E0026FA /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32AFA8223C3B79F2F5EB4EE749B5EBF /* UIImageView+SwiftyGif.swift */; };
 		5E650D04BA08EEE3D78FBF72B6AD9B18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EB36820F0A0835C8F222134E989D7B /* Foundation.framework */; };
-		688769F393EF8CAEAFD4103B88CDAED8 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC75E78F353BF8C6ADFD8F4CA77A37B /* SwiftyGifManager.swift */; };
-		74C2371C0469F24DE3E23A95C5FAAB27 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4C021323E5DA0122F6ED9FC2A82411 /* LoadingView.swift */; };
+		671D9781AE86FAB05A2F936512259F35 /* SwiftyGif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CECF7992771610E736C304A9517F3 /* SwiftyGif-dummy.m */; };
+		7B3A6B1765C527FB1DC99E1C98172100 /* EggLoadingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CA4776DC96874883E27C11704065D /* EggLoadingView-dummy.m */; };
+		8087F357FE3FD328CCAE4921498DA106 /* EggLoadingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D2AEC08B76A2C00747E9733411434C /* EggLoadingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84C1771023A76FE70015D13E /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84C1770F23A76FE70015D13E /* loading.gif */; };
 		87370D45B84BEE8C6100DED270049C18 /* Pods-EggLoadingView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76147745AF34B1A0E963345AA286D361 /* Pods-EggLoadingView_Example-dummy.m */; };
 		907F9DD9EB5A032AF52B5D2CEAE21997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EB36820F0A0835C8F222134E989D7B /* Foundation.framework */; };
+		9308FDC445E41F0A47803E1F2FA41F39 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8787E23D45170BE293B3D26C33DE76 /* UIImage+SwiftyGif.swift */; };
 		96D81C50269815EA1D1FB9F1FFC24B60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EB36820F0A0835C8F222134E989D7B /* Foundation.framework */; };
-		97C4360C46835BE2184A7D90CA5704B1 /* loading.gif in Sources */ = {isa = PBXBuildFile; fileRef = AC649FF7059C176F332FC7C6F9AFBBAF /* loading.gif */; };
-		A8A284117A3FA3BF36E8C159FABCD040 /* SwiftyGif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CECF7992771610E736C304A9517F3 /* SwiftyGif-dummy.m */; };
-		A9E54B5E882C5BC1A63907F5E9EC3605 /* ic_close.png in Sources */ = {isa = PBXBuildFile; fileRef = 4854562393229CD1D40FCC225A4CC39A /* ic_close.png */; };
-		B164CA7BB843289D8B534EF395EA806C /* EggDeviceExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDB3B2B479718389BFE9A50B5C30B55 /* EggDeviceExt.framework */; };
-		B3B0C176DE3C3390CAD43ABBAD123704 /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = AC11724882C5436A2F0207EC3A4534C6 /* SwiftyGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4EF1E4D69300DA5D27D53EC0C65BEAE /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8787E23D45170BE293B3D26C33DE76 /* UIImage+SwiftyGif.swift */; };
+		9AEA2AE7B6DC5897F4D2EFE7547DE678 /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = AC11724882C5436A2F0207EC3A4534C6 /* SwiftyGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D15FD1085ED724936A3EF4FD87578B1 /* SwiftyGif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67ED1959F54333F0ABD1359064AACC2 /* SwiftyGif.framework */; };
+		A37AC9A7BBD34BDC3B48995E03A16DCD /* dog.png in Sources */ = {isa = PBXBuildFile; fileRef = 84DB15364AAA54C9997D8209B78591A3 /* dog.png */; };
+		AF39461B269C0850E20CED888048C3FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EB36820F0A0835C8F222134E989D7B /* Foundation.framework */; };
+		B1C43C62BA376E8A5146016D4430E246 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC75E78F353BF8C6ADFD8F4CA77A37B /* SwiftyGifManager.swift */; };
 		BBD81C9B7BDF3F85A3A3CC91CE20177D /* UIDeviceExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254826F34013DD66D6FAE823EE524520 /* UIDeviceExt.swift */; };
-		BECC572104CBDD083FBC8789CACF63EA /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32AFA8223C3B79F2F5EB4EE749B5EBF /* UIImageView+SwiftyGif.swift */; };
-		C50DA4244351BFF84A68764613A647DD /* SwiftyGif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67ED1959F54333F0ABD1359064AACC2 /* SwiftyGif.framework */; };
+		C600989E6BE079D663C1E949B2BCE84C /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42622A3ACDF81EB70FAAE4426C92221E /* UIImageExtension.swift */; };
 		C81D134283D23FE3D561AE537D23EA69 /* EggDeviceExt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F65909BE354D0B61352D4AFF192D9C /* EggDeviceExt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D157A6555AF308144B2910C3B47EBAAD /* Pods-EggLoadingView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DEFC87BCFB087F6923534FEC6BC05B /* Pods-EggLoadingView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC478E96095C0D20347E1D09CD918116 /* EggLoadingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E21A4663DA47C2A171387CFF5A3D5AE6 /* EggLoadingView-dummy.m */; };
-		ECB9135A0AD0D276A51B23A0FBC7DCC6 /* dog.png in Sources */ = {isa = PBXBuildFile; fileRef = 20C280402E8D4988B366DF7F29E8E0C0 /* dog.png */; };
-		F5DF6176D9B4E8124556DD9652627E4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EB36820F0A0835C8F222134E989D7B /* Foundation.framework */; };
+		E4296101D4C6244B7283C48F89C533BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EB36820F0A0835C8F222134E989D7B /* Foundation.framework */; };
+		F69C90865064423DB8B945D37390F3B0 /* EggDeviceExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDB3B2B479718389BFE9A50B5C30B55 /* EggDeviceExt.framework */; };
 		FD7BE84ED5BB5B26DCEC6DB919B9A3F3 /* Pods-EggLoadingView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70BDC753D9FD828F06A9412BD3AEF9C9 /* Pods-EggLoadingView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		48B992F49404F13F9276109F2BEC3BB4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
-			remoteInfo = SwiftyGif;
-		};
 		5EE3D9B512DD348C49DDB025196BCAD9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8FE3EE38041AC135CC803510C4AA9DC5;
 			remoteInfo = EggDeviceExt;
+		};
+		734EB4BEA8F4FDF1376AB703541B315F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
 		};
 		815FEBB0D3E10BBC0133224C50C64C1D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -57,19 +58,19 @@
 			remoteGlobalIDString = E9DEDD48272494DFAEABE55ECA897763;
 			remoteInfo = "Pods-EggLoadingView_Example";
 		};
+		A8F3A4A09D8ADD666E14A134F9F296CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE3EE38041AC135CC803510C4AA9DC5;
+			remoteInfo = EggDeviceExt;
+		};
 		AE147DB334C0D825939FF3141E301159 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
 			remoteInfo = SwiftyGif;
-		};
-		B9B4F899AD03A7369A53D845FBDB98E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8FE3EE38041AC135CC803510C4AA9DC5;
-			remoteInfo = EggDeviceExt;
 		};
 		BEA9D6DD2C2FEA36E00C24F812CE09FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -84,59 +85,60 @@
 		002260F3EF21D78BB22182777C3F4F30 /* SwiftyGif.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyGif.modulemap; sourceTree = "<group>"; };
 		00F65909BE354D0B61352D4AFF192D9C /* EggDeviceExt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggDeviceExt-umbrella.h"; sourceTree = "<group>"; };
 		0F8787E23D45170BE293B3D26C33DE76 /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+SwiftyGif.swift"; path = "SwiftyGif/UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
-		127D14478F8A7D8FA90C79F0EEC4F6F7 /* EggLoadingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EggLoadingView.modulemap; sourceTree = "<group>"; };
 		1CE97C43D9F39478D4FD099C3A951C59 /* EggDeviceExt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EggDeviceExt-dummy.m"; sourceTree = "<group>"; };
-		20C280402E8D4988B366DF7F29E8E0C0 /* dog.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
-		23E81264B2D9E640221E647A15364CE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		254826F34013DD66D6FAE823EE524520 /* UIDeviceExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDeviceExt.swift; path = EggDeviceExt/Classes/UIDeviceExt.swift; sourceTree = "<group>"; };
+		2EB7436BC5701DFF514FA4A2DE0E3937 /* EggLoadingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EggLoadingView.modulemap; sourceTree = "<group>"; };
 		2FFEC0385C5B7484A4BF74370A682640 /* SwiftyGif-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-umbrella.h"; sourceTree = "<group>"; };
 		36ED8F699B45DF97B5BFC1805F725404 /* Pods-EggLoadingView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EggLoadingView_Tests.modulemap"; sourceTree = "<group>"; };
-		3FAF116EAEC952EEF1BF7EBCF5A716DC /* Pods_EggLoadingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EggLoadingView_Tests.framework; path = "Pods-EggLoadingView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAF116EAEC952EEF1BF7EBCF5A716DC /* Pods_EggLoadingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggLoadingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF84F6510D6FBCA5228C1D1A9DE598D /* Pods-EggLoadingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EggLoadingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		41EB36820F0A0835C8F222134E989D7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4854562393229CD1D40FCC225A4CC39A /* ic_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_close.png; sourceTree = "<group>"; };
+		42622A3ACDF81EB70FAAE4426C92221E /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		4A38B351526FC5A8938964EF5358CDEB /* SwiftyGif-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-prefix.pch"; sourceTree = "<group>"; };
-		504336D74C8F4293375A2DCC8B391F02 /* EggLoadingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggLoadingView-umbrella.h"; sourceTree = "<group>"; };
 		586D44BA4E3B5FEDFFDECE2A0FC39611 /* Pods-EggLoadingView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EggLoadingView_Tests-Info.plist"; sourceTree = "<group>"; };
 		5D8CECF7992771610E736C304A9517F3 /* SwiftyGif-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyGif-dummy.m"; sourceTree = "<group>"; };
-		6FFD102E79932FB418C2BC4CE2167D7B /* EggLoadingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EggLoadingView-Info.plist"; sourceTree = "<group>"; };
+		5E2EFB1AD3E27E9A377E787E4B7D1EFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5FF99C65411B15681179103253DF462B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		709E8CADB2642751BA7C364675C2C74B /* EggDeviceExt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EggDeviceExt.xcconfig; sourceTree = "<group>"; };
 		70BDC753D9FD828F06A9412BD3AEF9C9 /* Pods-EggLoadingView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EggLoadingView_Example-umbrella.h"; sourceTree = "<group>"; };
 		72055FE8CEA841DBC8B88113464BDA08 /* Pods-EggLoadingView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EggLoadingView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73D7B1A69D24F4B8997BA71B8BAA7114 /* EggLoadingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EggLoadingView.xcconfig; sourceTree = "<group>"; };
 		76147745AF34B1A0E963345AA286D361 /* Pods-EggLoadingView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EggLoadingView_Example-dummy.m"; sourceTree = "<group>"; };
-		7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyGif.framework; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82816FC01CF23D4EFBF2C49B7D0BD10B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		8AE210BC60219B0BFAC2B0BEE88C9C24 /* EggLoadingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EggLoadingView.framework; path = EggLoadingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B3C0B102E06B1A9E5210ED51581E133 /* EggDeviceExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EggDeviceExt.framework; path = EggDeviceExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C1770F23A76FE70015D13E /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		84DB15364AAA54C9997D8209B78591A3 /* dog.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		85659556A3688B2C6704AFD53C6BDDC3 /* EggLoadingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EggLoadingView-Info.plist"; sourceTree = "<group>"; };
+		85D2AEC08B76A2C00747E9733411434C /* EggLoadingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggLoadingView-umbrella.h"; sourceTree = "<group>"; };
+		8AE210BC60219B0BFAC2B0BEE88C9C24 /* EggLoadingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EggLoadingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3C0B102E06B1A9E5210ED51581E133 /* EggDeviceExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EggDeviceExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC80BDF6A2673D91150BD6B878960FC /* SwiftyGif-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyGif-Info.plist"; sourceTree = "<group>"; };
 		9006849A331E8E7FAF03F6386D90FA77 /* Pods-EggLoadingView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EggLoadingView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		950066EADA1F7765A557387973E2FD45 /* EggDeviceExt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggDeviceExt-prefix.pch"; sourceTree = "<group>"; };
 		95CEE3F21BF6080AD91F7BD4189D7556 /* Pods-EggLoadingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EggLoadingView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		977C2B7135B5355EC991426659D85A82 /* Pods-EggLoadingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EggLoadingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		978CFCFE73E99CEAD4185C14DD91F251 /* EggLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EggLoadingView.swift; sourceTree = "<group>"; };
+		9A3CA4776DC96874883E27C11704065D /* EggLoadingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EggLoadingView-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F7C25A505EDE49866B776ED455EC290 /* Pods-EggLoadingView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EggLoadingView_Example-Info.plist"; sourceTree = "<group>"; };
 		A0524FA5CC90AF619E029702EF2DDDD1 /* Pods-EggLoadingView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EggLoadingView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A4DEB514260FC9533C2D3FBE9B7A2380 /* EggLoadingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EggLoadingView.xcconfig; sourceTree = "<group>"; };
-		A7A9A91112186C6181D156D4AFF8E88D /* EggLoadingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggLoadingView-prefix.pch"; sourceTree = "<group>"; };
 		A93F269DC0BC7DEF67D0D23D473E261A /* SwiftyGif.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.xcconfig; sourceTree = "<group>"; };
 		AACB1789FDD4C35C42943805E7A22BE6 /* EggDeviceExt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EggDeviceExt-Info.plist"; sourceTree = "<group>"; };
 		AC11724882C5436A2F0207EC3A4534C6 /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
-		AC649FF7059C176F332FC7C6F9AFBBAF /* loading.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
 		B67ED1959F54333F0ABD1359064AACC2 /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8D47F61123B370273B7978AF02A81A7 /* Pods_EggLoadingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EggLoadingView_Example.framework; path = "Pods-EggLoadingView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D47F61123B370273B7978AF02A81A7 /* Pods_EggLoadingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggLoadingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DEFC87BCFB087F6923534FEC6BC05B /* Pods-EggLoadingView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EggLoadingView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BA9221C4B93031E4EA794FFA03C31C89 /* Pods-EggLoadingView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EggLoadingView_Tests-dummy.m"; sourceTree = "<group>"; };
 		BAC75E78F353BF8C6ADFD8F4CA77A37B /* SwiftyGifManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
 		BEDB3B2B479718389BFE9A50B5C30B55 /* EggDeviceExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EggDeviceExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D95791367A2FC5BA5EB8834E768954 /* EggDeviceExt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EggDeviceExt.modulemap; sourceTree = "<group>"; };
-		CA4C021323E5DA0122F6ED9FC2A82411 /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C5A2480AC6D9A02FB4A6EF9F679D7D0B /* EggLoadingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EggLoadingView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC74D0CAE33E037B16B7B082723666FC /* EggLoadingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggLoadingView-prefix.pch"; sourceTree = "<group>"; };
+		D1BB2B82A464330E70B0C06C6CDDF5C8 /* ic_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_close.png; sourceTree = "<group>"; };
 		D90C9ABEFBC6E147006E390A4F4A6A0A /* Pods-EggLoadingView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EggLoadingView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D964546C188A74B5A4F3FA40F8B9E501 /* Pods-EggLoadingView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EggLoadingView_Example.modulemap"; sourceTree = "<group>"; };
-		E21A4663DA47C2A171387CFF5A3D5AE6 /* EggLoadingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EggLoadingView-dummy.m"; sourceTree = "<group>"; };
 		E32AFA8223C3B79F2F5EB4EE749B5EBF /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+SwiftyGif.swift"; path = "SwiftyGif/UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
 		E5FAA01CC662D27DB632B108CC651AD5 /* Pods-EggLoadingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EggLoadingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F6E74DF3AB9BA837C5B4F206438946EC /* Pods-EggLoadingView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EggLoadingView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FB8CC002BF0EF62895C109FA60417E52 /* EggLoadingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EggLoadingView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,24 +147,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				907F9DD9EB5A032AF52B5D2CEAE21997 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E2AB8BA03FF9D11FF6E276E7236BD0A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B164CA7BB843289D8B534EF395EA806C /* EggDeviceExt.framework in Frameworks */,
-				037AB62386CE80EA67E37FEF2F688F79 /* Foundation.framework in Frameworks */,
-				C50DA4244351BFF84A68764613A647DD /* SwiftyGif.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A7D8C99A207786E4AA92F5667610176 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5DF6176D9B4E8124556DD9652627E4A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,36 +166,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B2789208D49E11AB4836935054CE8583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4296101D4C6244B7283C48F89C533BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5240546493AE50EC7DE01CC41CE8CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69C90865064423DB8B945D37390F3B0 /* EggDeviceExt.framework in Frameworks */,
+				AF39461B269C0850E20CED888048C3FA /* Foundation.framework in Frameworks */,
+				9D15FD1085ED724936A3EF4FD87578B1 /* SwiftyGif.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04E0F89F5F8AAC3F2B54F7B9F50A588D /* Pod */ = {
+		1E8D744532B2058984013957EF49AD47 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FB8CC002BF0EF62895C109FA60417E52 /* EggLoadingView.podspec */,
-				82816FC01CF23D4EFBF2C49B7D0BD10B /* LICENSE */,
-				23E81264B2D9E640221E647A15364CE8 /* README.md */,
+				C5A2480AC6D9A02FB4A6EF9F679D7D0B /* EggLoadingView.podspec */,
+				5E2EFB1AD3E27E9A377E787E4B7D1EFD /* LICENSE */,
+				5FF99C65411B15681179103253DF462B /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		0B3CBCFF5DA922289F2DD5A501094A3E /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				20C280402E8D4988B366DF7F29E8E0C0 /* dog.png */,
-				4854562393229CD1D40FCC225A4CC39A /* ic_close.png */,
-				AC649FF7059C176F332FC7C6F9AFBBAF /* loading.gif */,
-			);
-			name = Assets;
-			path = EggLoadingView/Assets;
 			sourceTree = "<group>";
 		};
 		25BDC5B915B05E0C9FEB69C415283760 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FFD7E3DE3A0E3987B538410D7B3921B5 /* EggLoadingView */,
+				2A18D06417DEA911598FFD98C66D363B /* EggLoadingView */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2A18D06417DEA911598FFD98C66D363B /* EggLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				70920089D2FE27051CA5ACAC96235492 /* Assets */,
+				629910C0B10E90F50D67385BBC4F44A7 /* Classes */,
+				1E8D744532B2058984013957EF49AD47 /* Pod */,
+				D2365DC64EBF3762FEFB976FF51B1B71 /* Support Files */,
+			);
+			name = EggLoadingView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		2E4FF32D7B6304AFA5AB13FEF65B98BF /* EggDeviceExt */ = {
@@ -220,7 +223,6 @@
 				254826F34013DD66D6FAE823EE524520 /* UIDeviceExt.swift */,
 				88A542316D6BCC97F7041C88DE4FD437 /* Support Files */,
 			);
-			name = EggDeviceExt;
 			path = EggDeviceExt;
 			sourceTree = "<group>";
 		};
@@ -231,15 +233,6 @@
 				5CAD6B88A677B7DB0D75DBDEF06FD02F /* Pods-EggLoadingView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		42FEBC25530F8D45659AFEDEF6AC581F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CA4C021323E5DA0122F6ED9FC2A82411 /* LoadingView.swift */,
-			);
-			name = Classes;
-			path = EggLoadingView/Classes;
 			sourceTree = "<group>";
 		};
 		5CAD6B88A677B7DB0D75DBDEF06FD02F /* Pods-EggLoadingView_Tests */ = {
@@ -256,6 +249,27 @@
 			);
 			name = "Pods-EggLoadingView_Tests";
 			path = "Target Support Files/Pods-EggLoadingView_Tests";
+			sourceTree = "<group>";
+		};
+		629910C0B10E90F50D67385BBC4F44A7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				978CFCFE73E99CEAD4185C14DD91F251 /* EggLoadingView.swift */,
+				42622A3ACDF81EB70FAAE4426C92221E /* UIImageExtension.swift */,
+			);
+			name = Classes;
+			path = EggLoadingView/Classes;
+			sourceTree = "<group>";
+		};
+		70920089D2FE27051CA5ACAC96235492 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				84C1770F23A76FE70015D13E /* loading.gif */,
+				84DB15364AAA54C9997D8209B78591A3 /* dog.png */,
+				D1BB2B82A464330E70B0C06C6CDDF5C8 /* ic_close.png */,
+			);
+			name = Assets;
+			path = EggLoadingView/Assets;
 			sourceTree = "<group>";
 		};
 		88A542316D6BCC97F7041C88DE4FD437 /* Support Files */ = {
@@ -289,20 +303,6 @@
 			path = "Target Support Files/Pods-EggLoadingView_Example";
 			sourceTree = "<group>";
 		};
-		AB168B13175CC221FDB4B56FFAAE750C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				127D14478F8A7D8FA90C79F0EEC4F6F7 /* EggLoadingView.modulemap */,
-				A4DEB514260FC9533C2D3FBE9B7A2380 /* EggLoadingView.xcconfig */,
-				E21A4663DA47C2A171387CFF5A3D5AE6 /* EggLoadingView-dummy.m */,
-				6FFD102E79932FB418C2BC4CE2167D7B /* EggLoadingView-Info.plist */,
-				A7A9A91112186C6181D156D4AFF8E88D /* EggLoadingView-prefix.pch */,
-				504336D74C8F4293375A2DCC8B391F02 /* EggLoadingView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EggLoadingView";
-			sourceTree = "<group>";
-		};
 		C2631194C06D0676D32E1033281EDF38 /* SwiftyGif */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,7 +312,6 @@
 				E32AFA8223C3B79F2F5EB4EE749B5EBF /* UIImageView+SwiftyGif.swift */,
 				D2AC01B1BBE031B3CF472FE108134FE9 /* Support Files */,
 			);
-			name = SwiftyGif;
 			path = SwiftyGif;
 			sourceTree = "<group>";
 		};
@@ -326,6 +325,20 @@
 				D409BBB62BA0AD1F8EAA387B53412856 /* Products */,
 				34F1D1476CAD3DD584AE4FD307833E0D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D2365DC64EBF3762FEFB976FF51B1B71 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EB7436BC5701DFF514FA4A2DE0E3937 /* EggLoadingView.modulemap */,
+				73D7B1A69D24F4B8997BA71B8BAA7114 /* EggLoadingView.xcconfig */,
+				9A3CA4776DC96874883E27C11704065D /* EggLoadingView-dummy.m */,
+				85659556A3688B2C6704AFD53C6BDDC3 /* EggLoadingView-Info.plist */,
+				CC74D0CAE33E037B16B7B082723666FC /* EggLoadingView-prefix.pch */,
+				85D2AEC08B76A2C00747E9733411434C /* EggLoadingView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EggLoadingView";
 			sourceTree = "<group>";
 		};
 		D2AC01B1BBE031B3CF472FE108134FE9 /* Support Files */ = {
@@ -381,35 +394,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FFD7E3DE3A0E3987B538410D7B3921B5 /* EggLoadingView */ = {
-			isa = PBXGroup;
-			children = (
-				0B3CBCFF5DA922289F2DD5A501094A3E /* Assets */,
-				42FEBC25530F8D45659AFEDEF6AC581F /* Classes */,
-				04E0F89F5F8AAC3F2B54F7B9F50A588D /* Pod */,
-				AB168B13175CC221FDB4B56FFAAE750C /* Support Files */,
-			);
-			name = EggLoadingView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		5BFA22EEEFD3EAE3274E5DBEFCC21482 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8087F357FE3FD328CCAE4921498DA106 /* EggLoadingView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7C26CFF1BBCB36EB8028685C7FB09294 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FD7BE84ED5BB5B26DCEC6DB919B9A3F3 /* Pods-EggLoadingView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9249FEE99977279125FCE945B25ACD4F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2ABD2BB77BCA832C6A18232305C2E442 /* SwiftyGif-umbrella.h in Headers */,
-				B3B0C176DE3C3390CAD43ABBAD123704 /* SwiftyGif.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,11 +429,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F66C826181E71C5F0E59E3045CF8D0EA /* Headers */ = {
+		CCAFBFC4668D5125F6B19A01C45B2871 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2653AFFC8316B261B6DCF39FD465A4E6 /* EggLoadingView-umbrella.h in Headers */,
+				05F9450C76B40372EDAF7C03F6019E2E /* SwiftyGif-umbrella.h in Headers */,
+				9AEA2AE7B6DC5897F4D2EFE7547DE678 /* SwiftyGif.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,12 +443,12 @@
 /* Begin PBXNativeTarget section */
 		15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3368AE171B0D31E76671EC7C8110834A /* Build configuration list for PBXNativeTarget "SwiftyGif" */;
+			buildConfigurationList = 89C2D22FCB92BA0B9F177E387110DBB4 /* Build configuration list for PBXNativeTarget "SwiftyGif" */;
 			buildPhases = (
-				9249FEE99977279125FCE945B25ACD4F /* Headers */,
-				7AEA060B3E9B121BC27D2D2F869C2296 /* Sources */,
-				2A7D8C99A207786E4AA92F5667610176 /* Frameworks */,
-				32744451D9BD3C0CD07335C422FD2FBB /* Resources */,
+				CCAFBFC4668D5125F6B19A01C45B2871 /* Headers */,
+				F5DDB1958E3C0539E93E9DC36A2F5799 /* Sources */,
+				B2789208D49E11AB4836935054CE8583 /* Frameworks */,
+				F24758E056E54BD37A323E290D5E1D79 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -497,18 +498,18 @@
 		};
 		D3AF2E37F34A4B0137AFB0819B8C4B2C /* EggLoadingView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50859D44ED0D8C78AC1EBDA80A5ADE7D /* Build configuration list for PBXNativeTarget "EggLoadingView" */;
+			buildConfigurationList = DCD4BE437D655CBF80ACAE1333AFA8C1 /* Build configuration list for PBXNativeTarget "EggLoadingView" */;
 			buildPhases = (
-				F66C826181E71C5F0E59E3045CF8D0EA /* Headers */,
-				92F1F31800CA99FC030F784F3A1C1332 /* Sources */,
-				1E2AB8BA03FF9D11FF6E276E7236BD0A /* Frameworks */,
-				0BD8F1FF09BD6E6040000B461F087F2C /* Resources */,
+				5BFA22EEEFD3EAE3274E5DBEFCC21482 /* Headers */,
+				AE1FD9B55BDBB3A5C44E03365A809E68 /* Sources */,
+				C5240546493AE50EC7DE01CC41CE8CCE /* Frameworks */,
+				A7439A53727DE27B942246D817B39B34 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FBBD529C687112D55117F1C098B102FA /* PBXTargetDependency */,
-				4F8548A4CC4552F07DC8AD64B08E87E2 /* PBXTargetDependency */,
+				F113F92B055A4AC51F8547E0A07A82A0 /* PBXTargetDependency */,
+				954820B9ED1B101513F66E61338B452C /* PBXTargetDependency */,
 			);
 			name = EggLoadingView;
 			productName = EggLoadingView;
@@ -567,13 +568,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0BD8F1FF09BD6E6040000B461F087F2C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		109F98CDC5A32682B3A18D38E3B8DD0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -581,10 +575,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32744451D9BD3C0CD07335C422FD2FBB /* Resources */ = {
+		A7439A53727DE27B942246D817B39B34 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C1771023A76FE70015D13E /* loading.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +591,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF5640CAF95A17BD62121BBF972966B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24758E056E54BD37A323E290D5E1D79 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -622,29 +624,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AEA060B3E9B121BC27D2D2F869C2296 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8A284117A3FA3BF36E8C159FABCD040 /* SwiftyGif-dummy.m in Sources */,
-				688769F393EF8CAEAFD4103B88CDAED8 /* SwiftyGifManager.swift in Sources */,
-				B4EF1E4D69300DA5D27D53EC0C65BEAE /* UIImage+SwiftyGif.swift in Sources */,
-				BECC572104CBDD083FBC8789CACF63EA /* UIImageView+SwiftyGif.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92F1F31800CA99FC030F784F3A1C1332 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ECB9135A0AD0D276A51B23A0FBC7DCC6 /* dog.png in Sources */,
-				EC478E96095C0D20347E1D09CD918116 /* EggLoadingView-dummy.m in Sources */,
-				A9E54B5E882C5BC1A63907F5E9EC3605 /* ic_close.png in Sources */,
-				97C4360C46835BE2184A7D90CA5704B1 /* loading.gif in Sources */,
-				74C2371C0469F24DE3E23A95C5FAAB27 /* LoadingView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9ECB1AF0D3FD1AE5D79BFAEAD9BB9234 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -653,15 +632,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE1FD9B55BDBB3A5C44E03365A809E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37AC9A7BBD34BDC3B48995E03A16DCD /* dog.png in Sources */,
+				7B3A6B1765C527FB1DC99E1C98172100 /* EggLoadingView-dummy.m in Sources */,
+				16390896429407649CB0910E55F8AF33 /* ic_close.png in Sources */,
+				2F195FFF76628133A740619C8CAE7992 /* EggLoadingView.swift in Sources */,
+				C600989E6BE079D663C1E949B2BCE84C /* UIImageExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DDB1958E3C0539E93E9DC36A2F5799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671D9781AE86FAB05A2F936512259F35 /* SwiftyGif-dummy.m in Sources */,
+				B1C43C62BA376E8A5146016D4430E246 /* SwiftyGifManager.swift in Sources */,
+				9308FDC445E41F0A47803E1F2FA41F39 /* UIImage+SwiftyGif.swift in Sources */,
+				3ECDD9940FC991132E6B03F56E0026FA /* UIImageView+SwiftyGif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4F8548A4CC4552F07DC8AD64B08E87E2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyGif;
-			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
-			targetProxy = 48B992F49404F13F9276109F2BEC3BB4 /* PBXContainerItemProxy */;
-		};
 		7393CD06FB480BC27E7F3B052E22117F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-EggLoadingView_Example";
@@ -680,17 +676,23 @@
 			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
 			targetProxy = AE147DB334C0D825939FF3141E301159 /* PBXContainerItemProxy */;
 		};
+		954820B9ED1B101513F66E61338B452C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = 734EB4BEA8F4FDF1376AB703541B315F /* PBXContainerItemProxy */;
+		};
 		BD7A59F1BED5B27165E37265CBCFCABC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EggLoadingView;
 			target = D3AF2E37F34A4B0137AFB0819B8C4B2C /* EggLoadingView */;
 			targetProxy = BEA9D6DD2C2FEA36E00C24F812CE09FD /* PBXContainerItemProxy */;
 		};
-		FBBD529C687112D55117F1C098B102FA /* PBXTargetDependency */ = {
+		F113F92B055A4AC51F8547E0A07A82A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EggDeviceExt;
 			target = 8FE3EE38041AC135CC803510C4AA9DC5 /* EggDeviceExt */;
-			targetProxy = B9B4F899AD03A7369A53D845FBDB98E1 /* PBXContainerItemProxy */;
+			targetProxy = A8F3A4A09D8ADD666E14A134F9F296CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -729,73 +731,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		17641B98F91592FAA03A7845C0925D53 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4DEB514260FC9533C2D3FBE9B7A2380 /* EggLoadingView.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EggLoadingView/EggLoadingView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EggLoadingView/EggLoadingView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EggLoadingView/EggLoadingView.modulemap";
-				PRODUCT_MODULE_NAME = EggLoadingView;
-				PRODUCT_NAME = EggLoadingView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2DE8142A53C077E7F03BF99F6829476B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4DEB514260FC9533C2D3FBE9B7A2380 /* EggLoadingView.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EggLoadingView/EggLoadingView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EggLoadingView/EggLoadingView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EggLoadingView/EggLoadingView.modulemap";
-				PRODUCT_MODULE_NAME = EggLoadingView;
-				PRODUCT_NAME = EggLoadingView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		3C73BDAC02BF6A4D61D6D97D384D8842 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -850,14 +785,13 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		673B7E2E33BCFA825FB40DC2274AD629 /* Debug */ = {
+		4950AB0EBD6CC282A67AE3854F91F344 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A93F269DC0BC7DEF67D0D23D473E261A /* SwiftyGif.xcconfig */;
 			buildSettings = {
@@ -956,6 +890,73 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		857C7436B6212014EB48D2F69DDD8E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D7B1A69D24F4B8997BA71B8BAA7114 /* EggLoadingView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EggLoadingView/EggLoadingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EggLoadingView/EggLoadingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EggLoadingView/EggLoadingView.modulemap";
+				PRODUCT_MODULE_NAME = EggLoadingView;
+				PRODUCT_NAME = EggLoadingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F7E0995A2419D58C54B19149CA5AE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D7B1A69D24F4B8997BA71B8BAA7114 /* EggLoadingView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EggLoadingView/EggLoadingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EggLoadingView/EggLoadingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EggLoadingView/EggLoadingView.modulemap";
+				PRODUCT_MODULE_NAME = EggLoadingView;
+				PRODUCT_NAME = EggLoadingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		AB09B621ED251839D4FA17E44F361111 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1127,7 +1128,7 @@
 			};
 			name = Release;
 		};
-		E41C5A75D960F1CF6445BB39FCC84ADE /* Release */ = {
+		D219BE466476BDD7B9A2400749BBE820 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A93F269DC0BC7DEF67D0D23D473E261A /* SwiftyGif.xcconfig */;
 			buildSettings = {
@@ -1163,15 +1164,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3368AE171B0D31E76671EC7C8110834A /* Build configuration list for PBXNativeTarget "SwiftyGif" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				673B7E2E33BCFA825FB40DC2274AD629 /* Debug */,
-				E41C5A75D960F1CF6445BB39FCC84ADE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3578E10C0A2294E19BE79451925DC2D3 /* Build configuration list for PBXNativeTarget "EggDeviceExt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1190,15 +1182,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50859D44ED0D8C78AC1EBDA80A5ADE7D /* Build configuration list for PBXNativeTarget "EggLoadingView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				17641B98F91592FAA03A7845C0925D53 /* Debug */,
-				2DE8142A53C077E7F03BF99F6829476B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		59E0F9D4DE5310EDB0FDFC41B5D1F753 /* Build configuration list for PBXNativeTarget "Pods-EggLoadingView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1213,6 +1196,24 @@
 			buildConfigurations = (
 				0FDF41007B30B925B0FB3BC599F8ACF4 /* Debug */,
 				C003C8FE74245B52276E4CF5AD831269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C2D22FCB92BA0B9F177E387110DBB4 /* Build configuration list for PBXNativeTarget "SwiftyGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4950AB0EBD6CC282A67AE3854F91F344 /* Debug */,
+				D219BE466476BDD7B9A2400749BBE820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD4BE437D655CBF80ACAE1333AFA8C1 /* Build configuration list for PBXNativeTarget "EggLoadingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857C7436B6212014EB48D2F69DDD8E0F /* Debug */,
+				8F7E0995A2419D58C54B19149CA5AE54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
