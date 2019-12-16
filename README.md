@@ -59,6 +59,16 @@ extension ViewController: EggLoadingViewDelegate {
     }
 }
 ```
+## Customization
+```ruby
+self.loadingView.bgColor = UIColor.black.withAlphaComponent(0.7)
+self.loadingView.imageWidth = 150
+self.loadingView.imageHeight = 150
+self.loadingView.titleText = "Hello"
+self.loadingView.titleColor = .red
+self.loadingView.loadingImage = "gifName"
+self.loadingView.closeButtonImageName = "closeImageName"
+```
 
 ## Author
 
