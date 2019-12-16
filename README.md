@@ -35,9 +35,7 @@ import EggLoadingView
 
 class ViewController: UIViewController {
     
-    <!-- 
-    initialize loading view 
-    -->
+    # initialize loading view 
     let loadingView = EggLoadingView()
     
     override func viewDidLoad() {
