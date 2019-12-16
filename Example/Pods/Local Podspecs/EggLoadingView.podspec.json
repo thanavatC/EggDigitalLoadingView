@@ -19,7 +19,10 @@
   "platforms": {
     "ios": "11.4"
   },
-  "source_files": "EggLoadingView/Classes/**/*",
+  "source_files": [
+    "EggLoadingView/Classes/**/*",
+    "EggLoadingView/Assets/**/*"
+  ],
   "dependencies": {
     "EggDeviceExt": [
 

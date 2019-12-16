@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   EggDeviceExt: 1053b39121d3de2d65f83b03ed72e009fb9e1ebe
-  EggLoadingView: 6eb845e7cfdcf3c7ae40b023b87e2ab200ec3290
+  EggLoadingView: 0e64f2bcef9bddcd636d71d44caf0e35c6c5f2ae
   SwiftyGif: b85c6b33a9411859d9e1db998b6a8214aea942df
 
 PODFILE CHECKSUM: 513f198d74cddecd6ad054c974d3049ea7a13342

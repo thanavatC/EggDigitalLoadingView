@@ -21,11 +21,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/thanavatC/EggLoadingView.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.4'
-  s.source_files = 'EggLoadingView/Classes/**/*'
-  s.resource_bundles = {
-    'LoadingView' => ['EggLoadingView/*/*.{png}']
-  }
-#  s.resources = 'EggLoadingView/**/*.{png,gif}'
+  s.source_files = ['EggLoadingView/Classes/**/*', 'EggLoadingView/Assets/**/*']
   s.dependency 'EggDeviceExt'
   s.dependency 'SwiftyGif'
 end
