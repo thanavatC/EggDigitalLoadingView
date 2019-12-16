@@ -18,6 +18,34 @@ it, simply add the following line to your Podfile:
 pod 'EggLoadingView'
 ```
 
+## Usage 
+```ruby
+import UIKit
+import EggLoadingView
+
+class ViewController: UIViewController {
+    
+    // initialize loading view
+    let loadingView = EggLoadingView()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // DON'T write ".gif" after gif image name
+        self.loadingView.loadingImageName = "loading"
+        self.loadingView.closeButtonImageName = "doggo"
+        self.loadingView.delegate = self
+        self.loadingView.showLoadingView(true, hasCloseBtn: true)
+    }
+}
+
+// MARK: - LoadingViewDelegate
+extension ViewController: EggLoadingViewDelegate {
+    func pressCloseButton(_ button: UIButton) {
+        print("Close Button Click")
+    }
+}
+```
+
 ## Author
 
 Thanavat Chaopaknam, thanavat.chao@gmail.com
