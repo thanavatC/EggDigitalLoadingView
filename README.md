@@ -66,7 +66,7 @@ self.loadingView.imageWidth = 150
 self.loadingView.imageHeight = 150
 self.loadingView.titleText = "Hello"
 self.loadingView.titleColor = .red
-self.loadingView.loadingImage = "gifName"
+self.loadingView.loadingImageName = "gifName"
 self.loadingView.closeButtonImageName = "closeImageName"
 ```
 
