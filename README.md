@@ -18,6 +18,16 @@ it, simply add the following line to your Podfile:
 pod 'EggLoadingView'
 ```
 
+And then run:
+```ruby
+pod install
+```
+
+After installing the cocoapod into your project import EggLoadingView with
+```ruby
+import EggLoadingView
+```
+
 ## Usage 
 ```ruby
 import UIKit
@@ -25,12 +35,12 @@ import EggLoadingView
 
 class ViewController: UIViewController {
     
-    // initialize loading view
+    <!-- initialize loading view -->
     let loadingView = EggLoadingView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // DON'T write ".gif" after gif image name
+        <!-- DON'T write ".gif" after gif image name -->
         self.loadingView.loadingImageName = "loading"
         self.loadingView.closeButtonImageName = "doggo"
         self.loadingView.delegate = self
