@@ -40,11 +40,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        <!-- DON'T write ".gif" after gif image name -->
+        
+        # DON'T write ".gif" after gif image name
         self.loadingView.loadingImageName = "loading"
         self.loadingView.closeButtonImageName = "doggo"
         self.loadingView.delegate = self
-        self.loadingView.showLoadingView(true, hasCloseBtn: true)
+        
+        # Call this method to show Loading View
+        # If you want to close Loading View, change isLoading to false
+        self.loadingView.showLoadingView(isLoading: true, hasCloseBtn: true)
     }
 }
 
