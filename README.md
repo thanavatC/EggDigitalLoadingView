@@ -52,7 +52,7 @@ class ViewController: UIViewController {
     }
 }
 
-// MARK: - LoadingViewDelegate
+// MARK: - EggLoadingViewDelegate
 extension ViewController: EggLoadingViewDelegate {
     func pressCloseButton(_ button: UIButton) {
         print("Close Button Click")
