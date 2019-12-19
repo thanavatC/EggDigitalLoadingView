@@ -26,12 +26,12 @@ pod install
 ```
 
 After installing the cocoapod into your project import EggLoadingView with
-```ruby
+```swift
 import EggLoadingView
 ```
 
 ## Usage 
-```ruby
+```swift
 import UIKit
 import EggLoadingView
 
@@ -62,7 +62,7 @@ extension ViewController: EggLoadingViewDelegate {
 }
 ```
 ## Customization
-```ruby
+```swift
 self.loadingView.bgColor = UIColor.black.withAlphaComponent(0.7)
 self.loadingView.imageWidth = 150
 self.loadingView.imageHeight = 150
